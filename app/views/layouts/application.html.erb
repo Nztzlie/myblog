@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Myblog</title>
+  <title>My Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Glegoo|Karma' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<%= render 'layouts/navigation' %>
 
 <%= yield %>
 
