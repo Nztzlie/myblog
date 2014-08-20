@@ -2,9 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$font-stack: 'Glegoo', serif;
+$font: 'Glegoo', serif;
 $font-stack: 'Karma', serif;
 
 body {
-	background-color: #E0DDE2
+	background-color: #E0DDE2;
+	font-style: $font;
+	font-size: 1000%
 }
