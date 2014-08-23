@@ -5,14 +5,15 @@
 $font: 'Glegoo', serif;
 $font-stack: 'Karma', serif;
 $palepurple: #E0DDE2;
-$heading: darken($palepurple, 20%);
+$heading: darken($palepurple, 10%);
+$heading2: darken($palepurple, 5%);
 
 body {
 	background-color: $palepurple;
-	font-style: $font;
 	font-size: 700%
 }
 
 #title {
 	background-color: $heading;
+	font-family: $font;
 }
