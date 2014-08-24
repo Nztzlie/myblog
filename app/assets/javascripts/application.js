@@ -12,5 +12,17 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require masonry/jquery.masonry
 //= require turbolinks
 //= require_tree .
+
+
+$(function(){
+
+  $('#masonry-container').masonry({
+    itemSelector: '.box',
+    columnWidth: 100,
+    gutterWidth: 40
+  });
+
+});
