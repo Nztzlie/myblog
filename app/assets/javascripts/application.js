@@ -22,7 +22,7 @@ $(function(){
   $('#masonry-container').masonry({
     itemSelector: '.box',
     columnWidth: function( containerWidth ) {
-    	return containerWidth / 5;
+    	return containerWidth / 7;
   }
   });
 
