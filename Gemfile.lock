@@ -30,6 +30,11 @@ GEM
     arel (5.0.1.20140414130214)
     blankslate (2.1.2.4)
     builder (3.2.2)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     celluloid (0.16.0.pre2)
       timers (~> 3.0.0)
     classifier-reborn (2.0.1)
@@ -170,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  carrierwave
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jekyll
