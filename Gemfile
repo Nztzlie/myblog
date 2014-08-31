@@ -28,8 +28,6 @@ gem 'spring',        group: :development
 
 gem 'jekyll'
 
-gem 'masonry-rails'
-
 gem 'carrierwave'
 
 
