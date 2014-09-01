@@ -17,3 +17,29 @@ body {
 	background-color: $heading;
 	font-family: $font;
 }
+
+#title a {
+
+}
+
+.box {
+	position: relative;
+	font-family: $font-stack;
+	font-size: 0.25em;
+}
+
+.box li {
+  perspective: 250px;
+}
+
+.box a img {
+  transition: 100ms;
+  transform: translateZ(0px);
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+.box a img:hover {
+  transform: translateZ(30px) rotate(3deg);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+  opacity: 0.5;
+}

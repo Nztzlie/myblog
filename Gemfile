@@ -28,9 +28,9 @@ gem 'spring',        group: :development
 
 gem 'jekyll'
 
+gem 'carrierwave'
 gem 'masonry-rails'
 
-gem 'carrierwave'
 
 
 # Use ActiveModel has_secure_password

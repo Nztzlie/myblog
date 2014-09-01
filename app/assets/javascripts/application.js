@@ -19,11 +19,16 @@
 
 $(function(){
 
-  $('#masonry-container').masonry({
-    itemSelector: '.box',
-    columnWidth: function( containerWidth ) {
-    	return containerWidth / 7;
-  }
-  });
+	$('#masonry-container').masonry({
+	  itemSelector: '.box',
+	  columnWidth: 100
+	});
+
+
+
+
+  $('#masonry-container').masonry( 
+  	'appended', $content, isAnimatedFromBottom 
+  	);
 
 });
