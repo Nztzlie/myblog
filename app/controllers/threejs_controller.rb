@@ -1,0 +1,2 @@
+class ThreejsController < ApplicationController
+end
